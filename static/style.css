@@ -1,0 +1,66 @@
+/* Основной стиль для тела */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Отключаем прокрутку страницы */
+}
+
+/* Контейнер с формой */
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+/* Стили для текстового поля */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: none; /* Убираем рамку */
+    background-color: #fff9c4; /* Светло-желтый фон для текстового поля */
+    box-sizing: border-box;
+    outline: none; /* Убираем внешнюю рамку при фокусе */
+    resize: none; /* Отключаем изменение размера текстового поля */
+    border-radius: 5px; /* Слегка округляем углы */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Стили для кнопки */
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FFA726; /* Светло-оранжевый цвет для кнопки */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    border-radius: 5px; /* Слегка округляем углы */
+}
+
+button:hover {
+    background-color: #FB8C00; /* Более насыщенный оранжевый при наведении */
+}
+
+/* Адаптация для маленьких экранов */
+@media (max-width: 600px) {
+    textarea {
+        height: 120px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
