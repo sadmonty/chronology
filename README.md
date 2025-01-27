@@ -11,7 +11,7 @@
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/sadmonty/chronology.git
    ```
 2. Установите зависимости:
    ```bash
